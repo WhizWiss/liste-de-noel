@@ -115,7 +115,11 @@ body {
   backdrop-filter: blur(6px); pointer-events: none; animation: hint-bob 2.2s ease-in-out infinite alternate;
 }
 @keyframes hint-bob { from { transform: translateY(0); } to { transform: translateY(4px); } }
-.credits { margin: 18px 0 0; max-width: 60ch; font-size: .72rem; line-height: 1.6; color: color-mix(in srgb, var(--mist) 65%, transparent); }
+.credits-box { margin-top: 22px; font-size: .72rem; color: color-mix(in srgb, var(--mist) 55%, transparent); }
+.credits-box summary { cursor: pointer; list-style: none; letter-spacing: .06em; }
+.credits-box summary::-webkit-details-marker { display: none; }
+.credits-box summary:focus-visible { outline: 1px dashed var(--gold); outline-offset: 3px; }
+.credits { margin: 8px auto 0; max-width: 60ch; line-height: 1.6; }
 .credits a { color: inherit; }
 .sound[aria-pressed="false"] { color: var(--mist); }
 .sound[aria-pressed="false"] .slash { display: inline; }
@@ -465,7 +469,7 @@ body {
 
   <section class="wishes" aria-labelledby="envies-h">
     <div class="list-head">
-      <h2 id="envies-h">Mes envies</h2>
+      <h2 id="envies-h">Ma liste d’envies</h2>
       <span class="count" id="count"></span>
       <span class="badge-example" id="badge" hidden>Exemples, en attendant la vraie liste</span>
       <span class="hint">Ouvrez un cadeau pour voir ce qu’il cache</span>
@@ -476,7 +480,7 @@ body {
   <footer class="sign">
     <p class="merci">Merci, Père Noël !</p>
     <p class="signature" id="signature" hidden></p>
-    <p class="credits" id="credits"></p>
+    <details class="credits-box"><summary>Crédits</summary><p class="credits" id="credits"></p></details>
   </footer>
 </main>
 

@@ -17,7 +17,7 @@ const KEVIN = (titre, fichier, officielle) => ({ fichier, titre, artiste: "Kevin
 
 window.LISTE = {
   annee: 2026,
-  intro: "Cher Père Noël, cette année j’ai été très sage (enfin, presque). Voici ce qui me ferait plaisir :",
+  intro: "Quelques idées pour Noël, au cas où vous seriez en panne d’inspiration. Merci d’avance !",
   signature: "",
   exemple: false,
   ambiance: [
@@ -39,10 +39,6 @@ window.LISTE = {
       { url: "https://www.amazon.fr/dp/B0GLP7M2TJ", label: "680NC · Amazon" }
     ], modele: "duo", photos: [{ src: "items/casque775.webp", label: "Live 775NC" }, { src: "items/casque.webp", label: "Live 680NC" }],
       musique: ALEX("Lofi Jazz Coffee Shop With Dynamic Swells", "items/music/casque.mp3", "lofi-jazz-coffee-shop-with-dynamic-swells") },
-    { nom: "Une manette DualSense Prism", note: "Pour la PS5, n’importe quelle couleur. En précommande dès le 10 novembre, sortie le 4 février 2027.", liens: [
-      { url: "https://www.amazon.fr/s?k=manette+DualSense+Prism", label: "Amazon · précommande" }
-    ], modele: "photo", photo: "items/manette.webp",
-      musique: ALEX("Lofi Jazz Sunny Cafe Daytime Beat", "items/music/manette.mp3", "lofi-jazz-sunny-cafe-daytime-beat") },
     { nom: "Légendes Pokémon : Z-A", note: "Nintendo Switch 2 Edition.", liens: [
       { url: "https://www.cdiscount.com/jeux-pc-video-console/nintendo-switch/legendes-pokemon-z-a-nintendo-switch-2-edition/f-10328-ninns2legendesza.html", label: "Cdiscount" },
       { url: "https://www.e.leclerc/fp/legendes-pokemon-z-a-nintendo-switch-2-edition-nintendo-switch-2-0045496313050", label: "E.Leclerc" }
@@ -66,6 +62,14 @@ window.LISTE = {
         { nom: "rose", photo: "items/sweat_rose.webp", pastille: "#f2b9b0" }
       ],
       musique: ALEX("Lofi Jazz Rainy Night Mood", "items/music/sweat.mp3", "lofi-jazz-rainy-night-mood"),
-      credit: { texte: "Photos d’exemple : Uniqlo" } }
+      credit: { texte: "Photos d’exemple : Uniqlo" } },
+    { nom: "Des chaussettes blanches et noires", note: "Des paires blanches et des paires noires, toutes simples.",
+      modele: "duo", photos: [{ src: "items/chaussettes_blanches.webp", label: "Blanches" }, { src: "items/chaussettes_noires.webp", label: "Noires" }],
+      musique: ALEX("Lofi Jazz Sunny Cafe Daytime Beat", "items/music/chaussettes.mp3", "lofi-jazz-sunny-cafe-daytime-beat"),
+      credit: { texte: "Photos d’exemple : Uniqlo" } },
+    { nom: "Des boxers Calvin Klein", note: "Le lot de 3 en coton stretch.", liens: [
+      { url: "https://www.amazon.fr/dp/B00FOI4JUU", label: "Amazon" }
+    ], modele: "photo", photo: "items/boxers_ck.webp",
+      musique: ALEX("Lofi Jazz Midnight Club After Hours", "items/music/boxers.mp3", "lofi-jazz-midnight-club-after-hours") }
   ]
 };
