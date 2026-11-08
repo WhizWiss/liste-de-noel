@@ -53,7 +53,7 @@ window.LISTE = {
       ],
       musique: ALEX("Vibraphone Jazz Study Session Without a Beat", "items/music/gants.mp3", "vibraphone-jazz-study-session-without-a-beat"),
       credit: { texte: "Photo d’exemple recolorée : Fingerkleid.de, CC BY-SA 4.0", lien: "https://commons.wikimedia.org/wiki/File:Ladies_leather_gloves_(cognac).jpg" } },
-    { nom: "Un gros sweat tout doux", note: "Bien ample et confortable, pour les soirées d’hiver. La couleur n’a pas d’importance.",
+    { nom: "Un gros sweat tout doux", note: "Taille L. Bien ample et confortable, pour les soirées d’hiver. La couleur n’a pas d’importance.",
       modele: "photo", photo: "items/sweat_beige.webp",
       couleurs: [
         { nom: "beige", photo: "items/sweat_beige.webp", pastille: "#d8ccb4" },
@@ -67,7 +67,7 @@ window.LISTE = {
       modele: "duo", photos: [{ src: "items/chaussettes_blanches.webp", label: "Blanches" }, { src: "items/chaussettes_noires.webp", label: "Noires" }],
       musique: ALEX("Lofi Jazz Sunny Cafe Daytime Beat", "items/music/chaussettes.mp3", "lofi-jazz-sunny-cafe-daytime-beat"),
       credit: { texte: "Photos d’exemple : Uniqlo" } },
-    { nom: "Des boxers Calvin Klein", note: "Le lot de 3 en coton stretch.", liens: [
+    { nom: "Des boxers Calvin Klein", note: "Taille M. Le lot de 3 en coton stretch.", liens: [
       { url: "https://www.amazon.fr/dp/B00FOI4JUU", label: "Amazon" }
     ], modele: "photo", photo: "items/boxers_ck.webp",
       musique: ALEX("Lofi Jazz Midnight Club After Hours", "items/music/boxers.mp3", "lofi-jazz-midnight-club-after-hours") }
