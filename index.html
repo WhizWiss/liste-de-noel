@@ -513,7 +513,7 @@ body {
   </div>
 </dialog>
 
-<script src="items.js"></script>
+<script>document.write('<script src="items.js?t=' + Date.now() + '"><\/script>');</script>
 <script>
 (() => {
   const L = window.LISTE || { envies: [] };
